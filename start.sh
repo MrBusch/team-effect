@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT="/Users/andreas/team_effect"
+PROJECT="$(cd "$(dirname "$0")" && pwd)"
 LOG="/tmp/team_effect_server.log"
 PID_FILE="/tmp/team_effect.pid"
 PORT=3001
