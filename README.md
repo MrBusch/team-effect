@@ -51,10 +51,10 @@ npm start        # serve everything from Express on http://localhost:3001
 
 ### macOS desktop launcher
 
-After running `npm run build`, compile the launcher app onto your Desktop:
+Run the setup script once after cloning to create the launcher app on your Desktop:
 
 ```bash
-osacompile -o ~/Desktop/Team\ Effect.app launcher.applescript
+bash setup.sh
 ```
 
 Then double-click **Team Effect** on your Desktop to start the server and open the app in your browser. Double-clicking again while running lets you reopen the app or stop the server.
@@ -88,8 +88,9 @@ team-effect/
 │       └── styles/
 ├── server/
 │   └── index.js          # Express API + SQLite setup
-├── start.sh              # macOS launcher script
-├── stop.sh               # macOS stop script
+├── setup.sh              # one-time macOS desktop launcher setup
+├── start.sh              # server start script
+├── stop.sh               # server stop script
 └── package.json
 ```
 
