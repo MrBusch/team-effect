@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Built frontend
+client/dist/
+
+# Logs
+*.log
+/tmp/
+
+# macOS
+.DS_Store
+
+# Claude Code project files
+.claude/
+
+# Environment
+.env
+.env.local
